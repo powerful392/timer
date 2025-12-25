@@ -4,7 +4,7 @@ Entering the desired number, specifying seconds or minutes, makes it measure the
 ## availeble languages in this timer
 english and persian languages
 ### Required libraries for both version
-playsound, and time
+playsound==1.2.2 and time
 #### How to run
 Put the .py file next to the sounds, and run it, install the libraries so that you don't get into trouble
 ##### created by: powerful392 github profile: https://github.com/powerful392
@@ -16,7 +16,7 @@ Put the .py file next to the sounds, and run it, install the libraries so that y
 ## زبانهای در دسترس این تایمر
 زبانهای فارسی و انگلیسی
 ### کتابخانه های مورد نیاز برای هردو نسخه
-playsound و time
+playsound==1.2.2 و time
 #### نحوه اجرا
 فایل .py رو کنار صداها بذارید، و اجرا کنید، کتابخانه ها رو نصب کنید تا دچار مشکل نشید
 ##### تایمر ساخته شده به دست: powerful392 پروفایل گیتهاب: https://github.com/powerful392
