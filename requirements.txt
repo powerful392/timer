@@ -1,2 +1,7 @@
 playsound==1.2.2
 time
+wxpython
+json
+threading
+os
+sys

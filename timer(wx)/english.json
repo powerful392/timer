@@ -1,0 +1,17 @@
+{
+    "time choose": "Please choose the measurement duration",
+    "question about time": "Choose minutes or seconds for duration",
+    "minute": "minute",
+    "second": "second",
+    "question about seeing seconds": "Dear user, would you like to see the seconds when calculating the time?",
+    "question about alarm": "Would you like to hear an alarm when the time is up?",
+    "timer start working": "The timer is on and is working",
+    "no": "No",
+    "yes": "Yes",
+    "left": "left",
+    "time end": "The time entered has ended",
+    "exit timer": "The timer is over, confirm the exit button to exit the program",
+    "exit": "exit",
+    "thanks for using": "Thank you for using the timer",
+    "confirm": "confirm"
+}
