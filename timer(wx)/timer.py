@@ -96,14 +96,14 @@ panel4.SetSizer(panel_sizer4)
 panel5 = wx.Panel(panel)
 size.Add(panel5, 0, wx.ALL, 5)
 panel_sizer5 = wx.BoxSizer(wx.VERTICAL)
-btn_confirm = wx.Button(panel5, label="")
+buttton_confirm = wx.Button(panel5, label="")
 status_label = wx.StaticText(panel5, label="")
-panel_sizer5.Add(btn_confirm, 0, wx.ALL, 5)
+panel_sizer5.Add(button_confirm, 0, wx.ALL, 5)
 panel_sizer5.Add(status_label, 0, wx.ALL, 5)
 def start_click(event):
     if user_value > 0 and chosed_user and get_choose_user and get_sound_user:
         threading.Thread(target=run_timer, daemon=True).start()
-btn_confirm.Bind(wx.EVT_BUTTON, start_click)
+button_confirm.Bind(wx.EVT_BUTTON, start_click)
 panel5.SetSizer(panel_sizer5)
 def refresh_texts():
     choose_time.SetLabel(get_languages_key("time choose"))
@@ -113,7 +113,7 @@ def refresh_texts():
     question_chooser.SetItems([get_languages_key("yes"), get_languages_key("no")])
     sound_ask.SetLabel(get_languages_key("question about alarm"))
     sound_chooser.SetItems([get_languages_key("yes"), get_languages_key("no")])
-    btn_confirm.SetLabel(get_languages_key("confirm"))
+    button_confirm.SetLabel(get_languages_key("confirm"))
     panel.Layout()
 def run_timer():
     wx.CallAfter(status_label.SetLabel, get_languages_key("timer start working"))
