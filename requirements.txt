@@ -1,7 +1,2 @@
 playsound==1.2.2
-time
-wxpython
-json
-threading
-os
-sys
+wxpython==4.2.4
