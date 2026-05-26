@@ -9,7 +9,7 @@ console and graphics
 playsound==1.2.2, time, wxpython, json, threading, os, sys
 ##### How to run
 Put the .py file next to the sounds, and run it, install the libraries so that you don't get into trouble
-###### created by: powerful392 github profile: https://github.com/powerful392
+###### created by: invincible627 github profile: https://github.com/invincible627
 
 
 # تایمر
@@ -23,4 +23,4 @@ Put the .py file next to the sounds, and run it, install the libraries so that y
 playsound==1.2.2, time, wxpython, json, threading, os, sys
 ##### نحوه اجرا
 فایل .py رو کنار صداها بذارید، و اجرا کنید، کتابخانه ها رو نصب کنید تا دچار مشکل نشید
-###### تایمر ساخته شده به دست: powerful392 پروفایل گیتهاب: https://github.com/powerful392
+###### تایمر ساخته شده به دست: invincible627 پروفایل گیتهاب: https://github.com/invincible627
